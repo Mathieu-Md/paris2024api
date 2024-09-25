@@ -35,6 +35,9 @@ public class Athlete {
             inverseJoinColumns = @JoinColumn( name = "olympiade_id" ) )
     private List<Olympiade> olympiades = new ArrayList<>();
 
+    @ManyToOne
+    @JoinColumn(name = "sport_id")
+    private Sport sport;
 
 
 
