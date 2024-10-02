@@ -39,6 +39,4 @@ public class Athlete {
     @JoinColumn(name = "sport_id")
     private Sport sport;
 
-
-
 }
